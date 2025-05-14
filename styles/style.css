@@ -1,0 +1,164 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  /* color: #ffffff; */
+}
+
+body {
+  position: relative;
+  background-color: rgb(31, 31, 36, 1);
+  color: #ffffff;
+  font-family: "Dosis", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden auto;
+}
+
+body a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #ffe565;
+}
+
+/* ------------header------------------ */
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+  padding: 10px;
+  align-items: center;
+  background-color: #272730e9;
+  width: 100%;
+  height: 110px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+  z-index: 999 !important;
+}
+
+header a {
+  color: #ffffff;
+}
+
+.header-logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1rem;
+  width: 110px;
+  font-weight: 500;
+}
+
+.navbar ul li a {
+  width: 110px;
+  font-size: 22px;
+}
+.navbar ul li a:hover {
+  background-color: #ffe565;
+  border-radius: 21px;
+  padding: 10px;
+  transition: all 0.1s;
+}
+
+.navbar ul li a:hover {
+  color: #000000;
+}
+
+.media-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.media-social div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffe565;
+  background-color: #4c4c55c3;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.media-social div i {
+  color: #ffe565;
+}
+
+.media-social div:hover {
+  border: 1px solid #ffffff;
+  background-color: #ffe565;
+}
+.media-social div:hover i {
+  color: #0c0389;
+}
+
+/* ------------------------------------------------- */
+
+/* ------------------hero-------------- */
+
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.block-hero-image {
+  width: 100%;
+}
+.block-hero-image img {
+  width: 100%;
+  height: 55rem;
+}
+
+.hero-image img {
+  border: 1px solid #ffe565;
+  width: 30rem;
+  height: 32rem;
+}
+
+.hero-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  position: absolute;
+  margin-top: 9rem;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 32rem;
+}
+
+.info span {
+  font-size: 30px;
+}
