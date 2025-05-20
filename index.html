@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fira+Code:wght@300..700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="/styles/style.css" />
     <title>TogoSchool Connet</title>
   </head>
@@ -24,48 +25,49 @@
     <header>
       <!-- log -->
       <div class="header-logo">
-        <img src="/images/pngegg(7).png" alt="logo TogoSchool" />
+        <a href="/index.html"
+          ><img src="/images/pngegg(7).png" alt="logo TogoSchool"
+        /></a>
       </div>
       <!-- Lien de navigation -->
       <div class="navbar">
         <nav>
           <ul>
-            <div class="link-actif">
-              <li><a href="">Acceuil</a></li>
+            <div class="">
+              <li><a href="#home">Acceuil</a></li>
             </div>
             <div>
-              <li><a href="">Apropos</a></li>
+              <li><a href="#about">Apropos</a></li>
             </div>
             <div>
-              <li><a href="">Mission</a></li>
+              <li><a href="#services">Mission</a></li>
             </div>
             <div>
-              <li><a href="">Partenaire</a></li>
+              <li><a href="#galery">Partenaire</a></li>
             </div>
 
             <div>
-              <li><a href="">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </div>
           </ul>
         </nav>
       </div>
 
       <!-- Media social  -->
-      <div class="media-social">
-        <div><i class="fa-brands fa-linkedin"></i></div>
-        <div><i class="fa-brands fa-facebook"></i></div>
-        <div><i class="fa-brands fa-square-instagram"></i></div>
-        <div><i class="fa-brands fa-tiktok"></i></div>
+      <div class="button-login">
+        <div class="login-button">
+          <button>Se Connecter</button>
+        </div>
+        <div class="inscription-button">
+          <button>S'inscrire</button>
+        </div>
       </div>
     </header>
 
     <!-- Le hero de la page  -->
-    <section class="hero-section">
+    <section class="hero-section" id="home">
       <div class="block-hero-image">
-        <img
-          src="/images/Télés.jpg"
-          alt=""
-        />
+        <img src="/images/Télés.jpg" alt="" />
       </div>
 
       <div class="hero-info">
@@ -77,7 +79,8 @@
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-              aspernatur ratione sapiente illum dolores aspernatur ratione sapiente illum dolores aspernatur ratione sapiente illum dolores
+              aspernatur ratione sapiente illum dolores aspernatur ratione
+              sapiente illum dolores aspernatur ratione sapiente illum dolores
             </p>
           </div>
 
@@ -88,14 +91,18 @@
               <button>App Store <i class="fa-brands fa-apple"></i></button>
             </div>
             <div class="playstore">
-              <button> Play Srore  <i class="fa-brands fa-google-play"></i></button>
+              <button>
+                Play Srore <i class="fa-brands fa-google-play"></i>
+              </button>
             </div>
           </div>
-
         </div>
 
         <div class="hero-image">
-          <img src="/images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png" alt="" />
+          <img
+            src="/images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -107,12 +114,12 @@
     </section>
 
     <!-- un bref infomation sur l'appliction -->
-    <section class="info-sur-lappli">
+    <section class="info-sur-lappli" id="about">
       <!-- primière information -->
 
       <div class="firstinformation">
         <div class="Textinfomationfirst">
-          <div>
+          <div class="information">
             <span>INFORMATION</span>
             <h2>What is Xtra Application ?</h2>
           </div>
@@ -126,20 +133,31 @@
             </p>
           </div>
 
-          <div>
-            <div>89 <span>Top Reviews</span></div>
-            <div>57 User Ratings</div>
+          <div class="user-applli">
+            <div>
+              <p><span>89</span> Top Reviews</p>
+            </div>
+            <div>
+              <p><span>57</span> User Ratings</p>
+            </div>
           </div>
         </div>
         <div class="imageoffirstinfo">
-          <img src="" alt="" />
+          <img
+            src="/images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            alt=""
+          />
         </div>
       </div>
+      <div class="div-bar"></div>
       <!-- primière information -->
 
       <div class="secondinfomation">
         <div class="imageofsecond">
-          <img src="" alt="" />
+          <img
+            src="/images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            alt=""
+          />
         </div>
         <div class="Textinfomationsecond">
           <div>
@@ -161,15 +179,15 @@
             <div class="option">
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
             </div>
 
@@ -177,15 +195,15 @@
             <div class="option">
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
               <div class="optionofchoix">
                 <div><i class="fa-solid fa-check"></i></div>
-                <div>Easy to Use</div>
+                <p>Easy to Use</p>
               </div>
             </div>
           </div>
@@ -194,70 +212,72 @@
     </section>
 
     <!-- Les service de lapplication -->
-    <section class="service-application">
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+    <section class="service-application" id="services">
+      <div class="sur-element">
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="title-offine">
+            <span>Offine</span>
+          </div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-      </div>
 
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div><span>Offine</span></div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-      </div>
 
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div><span>Offine</span></div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-      </div>
 
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div><span>Offine</span></div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-      </div>
 
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div><span>Offine</span></div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-      </div>
 
-      <div class="block-service">
-        <div class="block-service-icon">
-          <i class="fa-solid fa-graduation-cap"></i>
+        <div class="block-service">
+          <div class="block-service-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div><span>Offine</span></div>
+          <div class="bar"></div>
+          <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
-        <div><span>Offine</span></div>
-        <div class="bar"></div>
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
       </div>
+      <img src="/images/Télés.jpg" alt="" />
     </section>
 
     <!-- le galerie de l'application -->
-    <section class="appli-galery">
+    <section class="appli-galery" id="galery">
       <div class="title-appli-galery">
         <div><span>IMAGE</span></div>
         <h3>TogoSchool <span>Gallery</span></h3>
-      </div>
-
-      <div class="appli-galery-para">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
           minima consectetur exercitationem facilis accusamus sapiente suscipit
@@ -266,75 +286,134 @@
         </p>
       </div>
 
-      <div class="appli-galery-slide">
-        <div class="image-slide">
-          <img src="" alt="" />
+      <div class="slider">
+        <div class="slides">
+          <img src="images/Télés.jpg" class="slide active" alt="Image 1" />
+          <img
+            src="images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            class="slide"
+            alt="Image 2"
+          />
+          <img src="images/pngegg(7).png" class="slide" alt="Image 3" />
         </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
 
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
-        </div>
-
-        <div class="image-slide">
-          <img src="" alt="" />
+      <div class="marquee-gallery">
+        <div class="marquee-track">
+          <img src="images/Télés.jpg" alt="Image 1" />
+          <img
+            src="images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            alt="Image 2"
+          />
+          <img src="images/pngegg(7).png" alt="Image 3" />
+          <img src="images/Téléchargez Gratuitement .jpeg.jpg" alt="Image 4" />
+          <img
+            src="images/Téléchargez Gratuitement des Vecteurs, Photos et Vidéos.jpeg"
+            alt="Image 5"
+          />
+          <!-- On répète les images pour un effet infini -->
+          <img src="images/Télés.jpg" alt="Image 1 bis" />
+          <img
+            src="images/Smartphone_iphone_14_pro_max_mockup_png-removebg-preview.png"
+            alt="Image 2 bis"
+          />
+          <img src="images/pngegg(7).png" alt="Image 3 bis" />
+          <img
+            src="images/Téléchargez Gratuitement .jpeg.jpg"
+            alt="Image 4 bis"
+          />
+          <img
+            src="images/Téléchargez Gratuitement des Vecteurs, Photos et Vidéos.jpeg"
+            alt="Image 5 bis"
+          />
         </div>
       </div>
     </section>
 
     <!-- le contact de la page  -->
-    <div class="contact-section">
-      <div class="contact-item">
-        <span><i class="fa-solid fa-phone"></i></span>
-        <div>
-          <p class="title-newsletter">Numéro de téléphone</p>
-          <p>
-            <a href="https://wa.me/+22870146180" target="_blank"
-              >+228 70 14 61 80</a
-            >
-          </p>
+    <section class="container" id="contact">
+      <!-- Form Section -->
+      <div class="image-back-contact">
+        <div class="form-section">
+          <h1>Connectons-nous</h1>
+          <div class="form-container">
+            <input type="text" placeholder="Votre nom" />
+            <input type="text" placeholder="Téléphone" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Objet" />
+            <textarea placeholder="Message" rows="5"></textarea>
+          </div>
+          <button class="submit-button">Envoyer un message &#8599;</button>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+          <div class="contact-item">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <div>
+              <p class="title-newsletter">Numéro de téléphone</p>
+              <p>
+                <a href="https://wa.me/+22870146180" target="_blank"
+                  >+228 70 14 61 80</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <div>
+              <p class="title-newsletter">Email</p>
+              <p>adoboejulien6@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span><i class="fa-brands fa-skype"></i></span>
+            <div>
+              <p class="title-newsletter">Skype</p>
+              <p>julien</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <div>
+              <p class="title-newsletter">Adresse</p>
+              <p>42 Tokoin Novissi, Lomé - Togo</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="contact-item">
-        <span><i class="fa-solid fa-envelope"></i></span>
-        <div>
-          <p class="title-newsletter">Email</p>
-          <p>adoboejulien6@gmail.com</p>
-        </div>
+      <img src="/images/Télés.jpg" alt="" />
+    </section>
+
+    <div class="Downloading">
+      <div class="title-footer">
+        <h5>Downloading</h5>
+        <p><span>Download </span>Trial Version</p>
       </div>
-      <div class="contact-item">
-        <span><i class="fa-brands fa-skype"></i></span>
-        <div>
-          <p class="title-newsletter">Skype</p>
-          <p>julien</p>
+      <div class="footer-button">
+        <div class="appstor">
+          <button><i class="fa-brands fa-apple"> </i> App Store</button>
         </div>
-      </div>
-      <div class="contact-item">
-        <span><i class="fa-solid fa-location-dot"></i></span>
-        <div>
-          <p>Adresse</p>
-          <p>42 Tokoin Novissi, Lomé - Togo</p>
+        <div class="playstore">
+          <button><i class="fa-brands fa-google-play"></i> Play Srore</button>
         </div>
       </div>
     </div>
+    <div class="media-social-footer">
+      <div><i class="fa-brands fa-linkedin"></i></div>
+      <div><i class="fa-brands fa-facebook"></i></div>
+      <div><i class="fa-brands fa-square-instagram"></i></div>
+      <div><i class="fa-brands fa-tiktok"></i></div>
+      <div>
+        <i class="fa-brands fa-apple"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-google-play"></i>
+      </div>
+    </div>
+    <footer>Copyright © 2025 TogoSchool. All Rights Reserved</footer>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
