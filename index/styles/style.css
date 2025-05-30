@@ -487,6 +487,13 @@ header a {
   font-size: 21px;
 }
 
+.title-appli-galery h3 {
+  font-size: 40px;
+}
+.title-appli-galery div span {
+  color: #00000085;
+}
+
 .container {
   position: relative;
   display: flex;
